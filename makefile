@@ -4,7 +4,7 @@ srcdir:=src
 
 FC      :=mpif90
 modfile :=-module ./$(moddir)
-FFLAGS  :=-O2 -132 -traceback -openmp  $(modfile) 
+FFLAGS  :=-O2 -132 -traceback -qopenmp  $(modfile) 
 MKL_PATH:=/work1/soft/intel2015/composerxe/mkl/lib/intel64
 LDFLAGS :=-L$(MKL_PATH)  -lmkl_rt
 
