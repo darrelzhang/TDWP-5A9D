@@ -15,3 +15,5 @@ make
 # run
 
 ./xynh2.exe
+
+The input file for the program is given as "input" in default.
