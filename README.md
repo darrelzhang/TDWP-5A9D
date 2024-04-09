@@ -17,3 +17,4 @@ make
 ./xynh2.exe
 
 The input file for the program is given as "input" in default.
+All of the output files are in "result" directory.
