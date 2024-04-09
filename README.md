@@ -7,10 +7,10 @@ Linux OS
 Intel fortran compiler 
 
 
-#compile
+# compile
 
 make
 
-#run
+# run
 
 ./xynh2.exe
