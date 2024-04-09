@@ -16,7 +16,10 @@ make
 
 # run
 
-./xynh2.exe
+mpirun -hostfile machinefile -n  procs  ./xynh2.exe
+
+machinefile： contains the hostname of the parallel computing nodes
+procs: number of MPI processes
 
 The input file for the program is given as "input" in default.
 All of the output files are in "result" directory.
