@@ -3,6 +3,7 @@ a parallel algorithm for high-dimensional quantum dynamics  simulations in poly-
 
 # Requirements
 Linux OS
+
 Intel fortran compiler 
 
 
