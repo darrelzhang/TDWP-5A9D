@@ -1,0 +1,38 @@
+#initial (n h1,h2, y, x) in cart coordinate (in bohr)
+'N'   0.0         0.0       0.128216 
+'H'  -1.7716751   0.0      -0.5939
+'H'   0.88584    -1.5343   -0.5939
+'H'   0.88584     1.5343   -0.5939
+'H'   1.0   1.0   11.0
+#row1, row2, theta  (nh2) (nr nvb rmin rmax) (in bohr)
+200  3   1.0   5.0
+200  3   1.0   5.0
+200  10  0.88  3.1 
+#r1 betas gammas (H3 or y) (nr, (nrb), nvb, rmin, rmax) (in bobr)
+200  28   5    1.0   5.0
+200       10   0.9   3.1
+300       16  -2.2   2.2
+#z ( H4 or x) (nz, nzint, zmin, zmax)
+75   25   1.5   13.0
+#time for propagation (ttotal, dt, tprint, tabsz, tabsr)
+3600  10  30  1000  0
+#absorbing potential(prabs, r1abs, crabs, pzabs, rzabs, czabs)
+1.5   1.2   0.03   1.5   2.0   0.045
+#r1 position which calculate prob (posfluxr)
+3.5
+# Jtot  K0init, inital ro-vibrational state of nh3
+0  0  1
+#Kbzmin, Kbzmax
+0  0
+# rot of nh3 (j0, jmax, kmax)
+0  15  3
+# number of betanh3 = (jmax+1), alphas =(2*kmax+1)
+16  7
+# number of energy point(ne0), (e0init, delta) of initial gauss wp
+24  0.54  0.32
+#idpot, calculate pes('asy' and 'int'), read pes and scattering('sca')
+"sca"
+# how many cpu want to use (npot)
+20 
+#kcol
+35
