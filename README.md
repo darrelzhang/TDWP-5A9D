@@ -18,6 +18,8 @@ One should modify the variable MKL_PATH in the makefile and then
 
 make
 
+to obtain the executable file: xynh2.exe
+
 # run
 
 mpirun -hostfile machinefile -n  procs  ./xynh2.exe
