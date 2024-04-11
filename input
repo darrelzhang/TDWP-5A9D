@@ -4,15 +4,15 @@
 'H'   0.88584    -1.5343   -0.5939
 'H'   0.88584     1.5343   -0.5939
 'H'   1.0   1.0   11.0
-#row1, row2, theta  (nh2) (nr nvb rmin rmax) (in bohr)
+#row1, row2, theta  (nh2) (nr nvb rmin rmax) (row1 and row2 in bohr，theta in radian)
 200  3   1.0   5.0
 200  3   1.0   5.0
 200  10  0.88  3.1 
-#r1 betas gammas (H3 or y) (nr, (nrb), nvb, rmin, rmax) (in bobr)
+#r1 betas gammas (H3 or y) (nr, (nrb), nvb, rmin, rmax) (r1 in bobr, betas and gammas in radian)
 200  28   5    1.0   5.0
 200       10   0.9   3.1
 300       16  -2.2   2.2
-#z ( H4 or x) (nz, nzint, zmin, zmax)
+#z ( H4 or x) (nz, nzint, zmin, zmax)(in bohr)
 75   25   1.5   13.0
 #time for propagation (ttotal, dt, tprint, tabsz, tabsr)
 3600  10  30  1000  0
