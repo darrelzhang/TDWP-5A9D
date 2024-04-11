@@ -1,7 +1,7 @@
 # TDWP-5A9D
 a parallel algorithm for high-dimensional quantum dynamics  simulations in poly-atomic reactions
 
-The parallelization strategy for wavepacket dynamics calculations studying polyatomic reactions is given in the program mpi_potent.f and mpi_scatt.f.
+The parallelization strategy for wavepacket dynamics calculations studying polyatomic reactions is given in the program mpi_scatt_1.f and mpi_scatt_2.f.
 
 # Requirements
 Linux OS
