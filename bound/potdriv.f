@@ -133,7 +133,10 @@
      &                           r1,betas,gammas, 
      &                           row1,row2,theta, cart)
 
-!nh4pes lijun
+!nh4 pes lijun
+!atoms given in cart is N H1 H2   H3     H4, and cart is in bohr
+!the output energy is vx, which is in Hatree.
+!one can change the sequence of the atoms to call the PES
         call rearrange_atom(cart,cart1)
         cart1=cart1*0.529177d0
         call nh4pipNN(cart1,vx, vxa, vxb, vxc)
