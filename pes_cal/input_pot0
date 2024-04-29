@@ -1,0 +1,24 @@
+#initial (n h1,h2, y, x) in cart coordinate (in bohr)
+'N'   0.0         0.0       0.128216 
+'H'  -1.7716751   0.0      -0.5939
+'H'   0.88584    -1.5343   -0.5939
+'H'   0.88584     1.5343   -0.5939
+'H'   1.0   1.0   11.0
+#row1, row2, theta  (nh2) (nr nvb rmin rmax) (in bohr)
+200  2   1.0  5.0
+200  2   1.0  5.0
+200  3   0.88  3.1 
+#r1 betas gammas (H3 or y) (nr, (nrb), nvb, rmin, rmax) (in bobr)
+200  25  2     1.0  5.0
+200      3    0.9   3.1
+200      3   -2.2   2.2
+#z ( H4 or x) (nz, nzint, zmin, zmax)
+75   25    1.5   13.0
+# rot of nh3 (j0, jmax, kmax)
+0  6  3
+# number of betanh3 = (jmax+1), alphas =(2*kmax+1)
+7   7
+#idpot, calculate pes('asy' and 'int')
+potopt
+# how many cpu want to use and the present cpu sequeuece (nproc, idproc)
+abcde
