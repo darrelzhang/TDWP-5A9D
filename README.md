@@ -3,6 +3,10 @@ a parallel algorithm for high-dimensional quantum dynamics  simulations in poly-
 
 The parallelization strategy for wavepacket dynamics calculations studying polyatomic reactions is given in the program mpi_scatt_1.f and mpi_scatt_2.f.
 
+As shown in potdriv.f, the interface for the PES is given in the subroutine potdriv(...). 
+The PES we used for H+NH3 is given in "nh4_pipnn.o". 
+Based on the requirements of the interface, one can change the PES for other type of X+YNZ2 reaction.
+
 # Requirements
 Linux OS
 
