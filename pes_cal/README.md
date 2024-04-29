@@ -1,4 +1,3 @@
-
 # PES calculation
 This folder contains the program for calculating the potential energy surface of the X+YNZ reaction.
 
@@ -21,6 +20,8 @@ to obtain the executable file: xynh2_pes.exe
 
 # run
 
-mpirun -hostfile machinefile -n  procs  ./xynh2.exe
+Here we give a bash script "runpes.sh" for running.
 
-machinefile： contains the hostname of the parallel computing nodes
+In the scattering calculation, the potential energy surface is divided into the asymptotic region and the interaction region. These are represented by the "asy" and "int" options in the runpes.sh script, respectively. To calculate the potential energy surface faster, we use multiple CPUs to accelerate the computation, as indicated by the variable "potnum" in the runpes.sh script. Onecan change the value of this variable based on the number of available CPUs.
+
+After the program runs, it will generate POT* potential files in the "result" folder. We need to copy these files to the "scatt/result" folder, as the scattering calculation will read these potential files.
