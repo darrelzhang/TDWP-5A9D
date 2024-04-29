@@ -33,5 +33,7 @@ machinefile： contains the hostname of the parallel computing nodes
 
 procs: number of MPI processes
 
+We also give a bash script "run.sh" in the folder. The run options "asy", "int", and "sca" represent reading the asymptotic region, the interaction region potential energy surface, and the time-dependent wave packet scattering，respectively.
+
 The input file for the program is given as "input" in default.
 All of the output files are in "result" directory.
