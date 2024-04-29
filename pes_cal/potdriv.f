@@ -19,7 +19,9 @@
      &                           r10,betas0,gammas0,
      &                           row10,row20,theta0)
 
-!@nh4 pes lijun
+!nh4 pes lijun
+!When the potential energy surface needs to initialize some variables, 
+!we will need to call this program. Otherwise, there is no need to call it.
          call pes_init
 
 	 call potdriv(zg0,betanh30,alphas0,
