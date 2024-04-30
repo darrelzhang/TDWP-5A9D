@@ -6,7 +6,7 @@ The parallelization strategy for wavepacket dynamics calculations studying polya
 As shown in potdriv.f, the interface for the PES is given in the subroutine potdriv(...). 
 The PES we used for H+NH3 is given in "nh4_pipnn.o". 
 Due to copyright issues with the potential energy surface, we are unable to provide its source code.
-Based on the requirements of the interface, one can change the PES for any type of X+YNZ2 reaction.
+Based on the requirements of the interface, one can change the PES for any reaction of X+YNZ2 type.
 
 # Requirements
 Linux OS
